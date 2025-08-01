@@ -95,6 +95,8 @@ To start the MobSF server, execute the following command from within the `Mobile
 ```powershell
 run.bat
 Once MobSF is running, open your web browser and navigate to: http://127.0.0.1:8000
+Username :mobsf
+password: mobsf
 ```
 ---
 ## 🔬 Pen Testing with MobSF
