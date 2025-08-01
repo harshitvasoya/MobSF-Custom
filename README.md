@@ -3,6 +3,7 @@
 MobSF is an open-source mobile application (Android/iOS/Windows) automated pen-testing framework capable of static, dynamic, and malware analysis.
 
 ---
+<img width="970" height="109" alt="image" src="https://github.com/user-attachments/assets/971182e9-736b-4be7-8528-29b6b02e28f1" />
 
 ## ✅ Requirements for Windows Setup
 
@@ -75,11 +76,13 @@ Follow the steps below to clone and set up MobSF on your system.
     cd MobSF-Custom
     ```
 
+  
 3.  **Run the setup script**:
     This script will install all the required Python dependencies.
     ```powershell
     setup.bat
     ```
+      <img width="1050" height="393" alt="image" src="https://github.com/user-attachments/assets/9859be47-2817-4602-a0c6-6ee1e18a1a18" />
 
 > ⚠️ **Important Tip**: Before running `setup.bat`, ensure no other programs (like VSCode) or terminals have the MobSF directory open. File locks can cause permission errors during setup.
 
@@ -91,3 +94,40 @@ To start the MobSF server, execute the following command from within the `Mobile
 
 ```powershell
 run.bat
+Once MobSF is running, open your web browser and navigate to: http://127.0.0.1:8000
+```
+---
+## 🔬 Pen Testing with MobSF
+* You can now upload .apk, .ipa, or .appx files to the MobSF web interface to begin your analysis, which includes:
+
+* ** Static Analysis: Decompiling the app and analyzing its source code, resources, and configurations for vulnerabilities.
+
+* ** Dynamic Analysis: Running the app in an emulated environment to monitor its behavior, network traffic, and interactions.
+
+* ** Malware Detection: Checking for signatures of known malware families.
+
+* ** Web API Fuzzing: Testing the app's backend APIs for common security flaws.
+
+* For advanced usage, refer to the official documentation:
+🔗 MobSF Documentation
+
+## 📄 Notes
+* ** Python Version: Always use a compatible version of Python (3.8-3.11).
+
+* ** Updates: MobSF is under active development. Periodically run git pull in the MobSF directory to get the latest updates.
+
+* ** Stopping the Server: Press Ctrl + C in the terminal where MobSF is running to stop the server.
+
+## 🙌 Credits
+MobSF is developed and maintained by the MobSF Team.
+
+## 📌 License
+MobSF is distributed under the GNU General Public License v3.0.
+
+---
+
+
+
+
+
+
