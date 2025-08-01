@@ -119,3 +119,5 @@ docker run -it --rm -p 8000:8000 opensecurity/mobile-security-framework-mobsf:la
 * Tim Brown (@timb_machine) - For the iOS Binary Analysis Ruleset
 * Shanil Prasad (@Rajuraju14) - For improving iOS ATS Analysis
 * Jovan Petrovic (@JovanPetrovic) - For sponsoring a server to host mobsf.live
+#   M o b S F  
+ 
