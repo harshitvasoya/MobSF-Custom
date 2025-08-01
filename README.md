@@ -67,12 +67,12 @@ Follow the steps below to clone and set up MobSF on your system.
 
 1.  **Clone the MobSF repository**:
     ```powershell
-    git clone [https://github.com/harshitvasoya/MobSF-Custom.git]
+    git clone https://github.com/harshitvasoya/MobSF-Custom.git
     ```
 
 2.  **Change into the project directory**:
     ```powershell
-    cd Mobile-Security-Framework-MobSF
+    cd MobSF-Custom
     ```
 
 3.  **Run the setup script**:
